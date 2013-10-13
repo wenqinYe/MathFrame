@@ -10,6 +10,7 @@
 		72ECBD23180A341D0018CCE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ECBD22180A341D0018CCE2 /* Foundation.framework */; };
 		72ECBD26180A341D0018CCE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ECBD25180A341D0018CCE2 /* main.m */; };
 		72ECBD2A180A341D0018CCE2 /* mathFrame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 72ECBD29180A341D0018CCE2 /* mathFrame.1 */; };
+		72ECBD32180A35090018CCE2 /* MathFrameWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ECBD31180A35090018CCE2 /* MathFrameWork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		72ECBD25180A341D0018CCE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72ECBD28180A341D0018CCE2 /* mathFrame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mathFrame-Prefix.pch"; sourceTree = "<group>"; };
 		72ECBD29180A341D0018CCE2 /* mathFrame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mathFrame.1; sourceTree = "<group>"; };
+		72ECBD30180A35090018CCE2 /* MathFrameWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathFrameWork.h; sourceTree = "<group>"; };
+		72ECBD31180A35090018CCE2 /* MathFrameWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathFrameWork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				72ECBD25180A341D0018CCE2 /* main.m */,
+				72ECBD30180A35090018CCE2 /* MathFrameWork.h */,
+				72ECBD31180A35090018CCE2 /* MathFrameWork.m */,
 				72ECBD29180A341D0018CCE2 /* mathFrame.1 */,
 				72ECBD27180A341D0018CCE2 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72ECBD32180A35090018CCE2 /* MathFrameWork.m in Sources */,
 				72ECBD26180A341D0018CCE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				72ECBD2F180A341D0018CCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

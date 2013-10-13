@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface MathFrameWork : NSObject
-
+-(int)fibbonanciNumberAtIndex:(int)index;
+-(int)calculateFibNumberAtIndex:(int)index;
 @end

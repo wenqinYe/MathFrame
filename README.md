@@ -1,4 +1,4 @@
-MathFrame
+MathFrameWork
 =========
 ## Getting Started
 To get started all you have to do is instantiate an object of the MathFrameWork class, so you can use the MathFrameWork class' methods.

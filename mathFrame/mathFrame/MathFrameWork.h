@@ -10,5 +10,7 @@
 
 @interface MathFrameWork : NSObject
 -(int)fibbonanciNumberAtIndex:(int)index;
--(int)calculateFibNumberAtIndex:(int)index;
+
+-(int)factoral:(int)factoralNumber;
+
 @end

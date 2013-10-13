@@ -17,10 +17,7 @@ int main(int argc, const char * argv[])
 		//then pass off that memory chunk location/instance to our pointer so we can use it in our code, without referencing the actualy memory location itself and doing low level programming!
 		MathFrameWork *mathInstance = [[MathFrameWork alloc] init];
 		
-		int fibNumber = 0;
-		
-		fibNumber = [mathInstance calculateFibNumberAtIndex:4];
-		NSLog(@"%d", fibNumber);
+		NSLog(@"%d, %d", [mathInstance factoral:3], [mathInstance fibbonanciNumberAtIndex:2]);
 	}
     return 0;
 }

@@ -18,8 +18,12 @@
 	}
 }
 
--(int)calculateFibNumberAtIndex:(int)index{
-	int fibNumberAtIndex = [self fibbonanciNumberAtIndex:index];
-	return fibNumberAtIndex;
+-(int)factoral:(int)factoralNumber{
+	if(factoralNumber == 0){
+		return 1;
+	} else {
+		return factoralNumber * [self factoral:factoralNumber - 1];
+	}
 }
+
 @end
